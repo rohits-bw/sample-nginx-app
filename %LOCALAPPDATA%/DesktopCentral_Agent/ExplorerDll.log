@@ -1,0 +1,13 @@
+﻿Date	Time	Severity	PID	TID	Function	Message
+20-04-2026	14:52:12.010	 INFO	 39588	 38720	DllMain	"DLL_PROCESS_ATTACH Sun Apr 27 14:47:17 2025 11.4.2500.28"
+20-04-2026	14:52:12.013	 INFO	 39588	 34728	LateInitialization	"Intialization..."
+20-04-2026	14:52:12.015	 INFO	 39588	 34728	LateInitialization	"Exe = C:\Users\rohits1\AppData\Local\Programs\Git\usr\bin\vim.exe"
+20-04-2026	14:52:12.017	 INFO	 39588	 34728	LateInitialization	"IsExplorer = 0"
+20-04-2026	14:52:12.019	 INFO	 39588	 34728	Edlp::Path::InitializeExcludedPathPatterns	"Windows drive = C:"
+20-04-2026	14:52:12.021	 INFO	 39588	 34728	LateInitialization	"Intialization finished"
+20-04-2026	14:53:05.371	 INFO	 30656	 31648	DllMain	"DLL_PROCESS_ATTACH Sun Apr 27 14:47:17 2025 11.4.2500.28"
+20-04-2026	14:53:05.372	 INFO	 30656	 30424	LateInitialization	"Intialization..."
+20-04-2026	14:53:05.374	 INFO	 30656	 30424	LateInitialization	"Exe = C:\Users\rohits1\AppData\Local\Programs\Git\usr\bin\vim.exe"
+20-04-2026	14:53:05.374	 INFO	 30656	 30424	LateInitialization	"IsExplorer = 0"
+20-04-2026	14:53:05.375	 INFO	 30656	 30424	Edlp::Path::InitializeExcludedPathPatterns	"Windows drive = C:"
+20-04-2026	14:53:05.376	 INFO	 30656	 30424	LateInitialization	"Intialization finished"
