@@ -45,3 +45,49 @@ MaxPrintPages = 4294967295
 GdiPlusToken = 18243281
 ExcludedEscapes = 4117, 37, 4118, 4115, 4121, "
 20-04-2026	16:17:41.291	 INFO	 43772	 38152	LateInitialization	"Intialization finished"
+20-04-2026	16:23:42.292	 INFO	 28608	 40996	DllMain	"DLL_PROCESS_ATTACH Sun Apr 27 14:47:17 2025 11.4.2500.28"
+20-04-2026	16:23:42.295	 INFO	 28608	 40996	DllMain	"PROCESS ATTACHED"
+20-04-2026	16:23:42.296	 INFO	 28608	 30192	LateInitialization	"Intialization..."
+20-04-2026	16:23:42.297	 INFO	 28608	 30192	LoadDisplayDevicesName	"DisplayDevices : "
+20-04-2026	16:23:42.298	 INFO	 28608	 30192	LoadDisplayDevicesName	"\\.\DISPLAY1"
+20-04-2026	16:23:42.299	 INFO	 28608	 30192	LoadDisplayDevicesName	"\\.\DISPLAY2"
+20-04-2026	16:23:42.300	 INFO	 28608	 30192	LoadDisplayDevicesName	"\\.\DISPLAY3"
+20-04-2026	16:23:42.302	 INFO	 28608	 30192	LoadDisplayDevicesName	"\\.\DISPLAY4"
+20-04-2026	16:23:45.310	ERROR	 28608	 30192	LateInitialization	"std::exception caught = GetFileVersionInfoSizeW failed with 1813
+"
+20-04-2026	16:23:45.313	 INFO	 28608	 30192	LateInitialization	"Exe = C:\Users\rohits1\AppData\Local\Programs\Git\usr\bin\vim.exe
+ProductName = 
+FileDescription = 
+ShadowFolder = %LOCALAPPDATA%\EndpointDLP\print-shadow
+ParsingMode = Hybrid
+DeletePrinterShadowFiles = 1
+PrinterUseDisplayDevicesList = 0
+EnablePrinterEscapeProcessing = 1
+EnableWatermarkForAll = 0
+MaxPrintPages = 4294967295
+GdiPlusToken = 18607312
+ExcludedEscapes = 4117, 37, 4118, 4115, 4121, "
+20-04-2026	16:23:45.316	 INFO	 28608	 30192	LateInitialization	"Intialization finished"
+20-04-2026	16:25:49.828	 INFO	 43664	 43304	DllMain	"DLL_PROCESS_ATTACH Sun Apr 27 14:47:17 2025 11.4.2500.28"
+20-04-2026	16:25:49.832	 INFO	 43664	 43304	DllMain	"PROCESS ATTACHED"
+20-04-2026	16:25:49.834	 INFO	 43664	 43384	LateInitialization	"Intialization..."
+20-04-2026	16:25:49.837	 INFO	 43664	 43384	LoadDisplayDevicesName	"DisplayDevices : "
+20-04-2026	16:25:49.840	 INFO	 43664	 43384	LoadDisplayDevicesName	"\\.\DISPLAY1"
+20-04-2026	16:25:49.842	 INFO	 43664	 43384	LoadDisplayDevicesName	"\\.\DISPLAY2"
+20-04-2026	16:25:49.844	 INFO	 43664	 43384	LoadDisplayDevicesName	"\\.\DISPLAY3"
+20-04-2026	16:25:49.847	 INFO	 43664	 43384	LoadDisplayDevicesName	"\\.\DISPLAY4"
+20-04-2026	16:25:52.864	ERROR	 43664	 43384	LateInitialization	"std::exception caught = GetFileVersionInfoSizeW failed with 1813
+"
+20-04-2026	16:25:52.868	 INFO	 43664	 43384	LateInitialization	"Exe = C:\Users\rohits1\AppData\Local\Programs\Git\usr\bin\vim.exe
+ProductName = 
+FileDescription = 
+ShadowFolder = %LOCALAPPDATA%\EndpointDLP\print-shadow
+ParsingMode = Hybrid
+DeletePrinterShadowFiles = 1
+PrinterUseDisplayDevicesList = 0
+EnablePrinterEscapeProcessing = 1
+EnableWatermarkForAll = 0
+MaxPrintPages = 4294967295
+GdiPlusToken = 18734859
+ExcludedEscapes = 4117, 37, 4118, 4115, 4121, "
+20-04-2026	16:25:52.872	 INFO	 43664	 43384	LateInitialization	"Intialization finished"

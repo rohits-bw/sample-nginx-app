@@ -2,35 +2,40 @@ pipeline {
     agent any
 
     environment {
-        WEB_SERVER = "sysadmin@10.20.151.69"
+        IMAGE_NAME = "nginx-devops-app"
+        TARGET_SERVER = "sysadmin@10.20.151.69"
     }
 
     stages {
 
-        stage('Clone Code') {
+        stage('Checkout') {
             steps {
-                echo "Code already checked out by Jenkins"
+                git branch: 'main', url: 'https://github.com/rohits-bw/sample-nginx-app.git'
             }
         }
 
-        stage('Build') {
+        stage('Build Docker Image') {
             steps {
-                echo "No build required for static HTML"
+                sh 'docker build -t $IMAGE_NAME .'
             }
         }
 
-        stage('Test') {
+        stage('Save Image') {
             steps {
-                echo "Running basic test"
-                sh 'cat index.html'
+                sh 'docker save $IMAGE_NAME > app.tar'
             }
         }
 
-        stage('Deploy') {
+        stage('Deploy to Server') {
             steps {
                 sh '''
-                scp -o StrictHostKeyChecking=no index.html $WEB_SERVER:/tmp/
-                ssh -o StrictHostKeyChecking=no $WEB_SERVER "sudo mv /tmp/index.html /var/www/html/index.html"
+                scp -o StrictHostKeyChecking=no app.tar $TARGET_SERVER:/tmp/
+                ssh -o StrictHostKeyChecking=no $TARGET_SERVER "
+                    docker load < /tmp/app.tar &&
+                    docker stop nginx-app || true &&
+                    docker rm nginx-app || true &&
+                    docker run -d -p 80:80 --name nginx-app $IMAGE_NAME
+                "
                 '''
             }
         }
